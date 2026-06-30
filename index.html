@@ -345,7 +345,7 @@
           <svg class="ico" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
           Sistema operativo
         </label>
-        <select id="os" onchange="syncSelects()">
+        <select id="os" onchange="syncSelects()" disabled>
           <option value="">Cualquier OS</option>
           <option value="win10">Windows 10</option>
           <option value="win11">Windows 11</option>
@@ -446,6 +446,8 @@
     }
   }
   cargarJuegos();
+  $('os').value = '';
+  $('os').disabled = true;
 
   /* ── Specs de dispositivos prefabricados ── */
   const PREFABS = {
@@ -461,19 +463,22 @@
   function onPrefab() {
     const val = $('prefab').value;
     const locked = !!val;
-    ['cpu','ram','gpu','os'].forEach(id => { $(id).disabled = locked; });
+    ['cpu','ram','gpu'].forEach(id => { $(id).disabled = locked; });
+    $('os').value = '';
+    $('os').disabled = true;
     if (val && PREFABS[val]) {
       const p = PREFABS[val];
       $('cpu').value = p.cpu;
       $('ram').value = p.ram;
       $('gpu').value = p.gpu;
-      $('os').value  = p.os;
     }
   }
 
   function syncSelects() {
     $('prefab').value = '';
-    ['cpu','ram','gpu','os'].forEach(id => { $(id).disabled = false; });
+    ['cpu','ram','gpu'].forEach(id => { $(id).disabled = false; });
+    $('os').value = '';
+    $('os').disabled = true;
   }
 
   /* Windows 11 corre software listado solo para Windows 10 */
