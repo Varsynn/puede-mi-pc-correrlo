@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Puede mi PC correrlo?</title>
+  <style>
+    :root {
+      --bg: #0e0e12;
+      --surface: #16161d;
+      --surface2: #1e1e28;
+      --border: rgba(255,255,255,0.08);
+      --border-hover: rgba(255,255,255,0.16);
+      --text: #e8e8f0;
+      --text-muted: #7070a0;
+      --accent: #7c6af5;
+      --accent-hover: #9585ff;
+      --accent-dim: rgba(124,106,245,0.15);
+      --success: #3ecf8e;
+      --success-dim: rgba(62,207,142,0.12);
+      --warning: #f0a050;
+      --warning-dim: rgba(240,160,80,0.12);
+      --radius: 10px;
+      --radius-lg: 16px;
+      --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 2rem 1rem 4rem;
+    }
+
+    /* ── Cabecera ── */
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    header h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: #fff;
+      margin-bottom: 0.4rem;
+    }
+    header h1 span { color: var(--accent); }
+    header p {
+      font-size: 1rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Contenedor principal ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* ── Panel / tarjeta ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Prefabricados ── */
+    .prefab-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .prefab-row label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+    .prefab-row select { flex: 1; min-width: 200px; }
+    .or-pill {
+      font-size: 0.7rem;
+      padding: 3px 10px;
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    /* ── Grid de selectores ── */
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; }
+    @media (max-width: 600px) {
+      .grid2, .grid3 { grid-template-columns: 1fr; }
+    }
+
+    .field { display: flex; flex-direction: column; gap: 0.35rem; }
+    .field label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    /* ── Controles de formulario ── */
+    select, input {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 0.9rem;
+      padding: 0.55rem 0.75rem;
+      outline: none;
+      transition: border-color 0.15s;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%237070a0' stroke-width='2.5'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+      padding-right: 2.2rem;
+      cursor: pointer;
+    }
+    select:focus, input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-dim);
+    }
+    select:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+    select option { background: #1e1e28; }
+
+    /* ── Divisor ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.25rem 0;
+    }
+
+    /* ── Botón buscar ── */
+    .btn-search {
+      width: 100%;
+      padding: 0.8rem;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font);
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, transform 0.1s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1.25rem;
+    }
+    .btn-search:hover { background: var(--accent-hover); }
+    .btn-search:active { transform: scale(0.98); }
+
+    /* ── Resultados ── */
+    #results { margin-top: 1.5rem; }
+    .results-header {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .game-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.65rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      transition: border-color 0.15s;
+    }
+    .game-card:hover { border-color: var(--border-hover); }
+
+    .game-thumb {
+      width: 54px;
+      height: 54px;
+      border-radius: 10px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      flex-shrink: 0;
+    }
+
+    .game-body { flex: 1; min-width: 0; }
+    .game-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 0.2rem;
+    }
+    .game-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+    .tag {
+      font-size: 0.7rem;
+      font-weight: 500;
+      padding: 2px 9px;
+      border-radius: 99px;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+    .tag-genre {
+      background: var(--accent-dim);
+      color: var(--accent-hover);
+      border-color: rgba(124,106,245,0.3);
+    }
+    .tag-multi {
+      background: rgba(240,160,80,0.1);
+      color: var(--warning);
+      border-color: rgba(240,160,80,0.25);
+    }
+    .tag-compat {
+      background: var(--success-dim);
+      color: var(--success);
+      border-color: rgba(62,207,142,0.25);
+    }
+
+    /* ── Estado vacío / error ── */
+    .empty {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+    .empty .icon { font-size: 2.5rem; display: block; margin-bottom: 0.75rem; }
+
+    /* ── Icono SVG inline ── */
+    .ico {
+      width: 14px;
+      height: 14px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>¿Puede mi PC <span>correrlo</span>?</h1>
+    <p>Encuentra juegos compatibles con tu hardware en segundos</p>
+  </header>
+
+  <!-- ── Prefabricados ── -->
+  <div class="card">
+    <p class="section-title">Dispositivo prefabricado</p>
+    <div class="prefab-row">
+      <label>Elegir dispositivo</label>
+      <select id="prefab" onchange="onPrefab()">
+        <option value="">— Elige o configura abajo —</option>
+        <option value="steamdeck">Steam Deck (AMD Zen 2 / RDNA 2 / 16 GB / SteamOS)</option>
+        <option value="rogally">ASUS ROG Ally (Ryzen Z1 Extreme / RDNA 3 / 16 GB / Windows 11)</option>
+        <option value="legionGo">Lenovo Legion Go (Ryzen Z1 Extreme / RDNA 3 / 16 GB / Windows 11)</option>
+        <option value="gpd">GPD Win 4 (Ryzen 7840U / RDNA 3 / 16 GB / Windows 11)</option>
+      </select>
+      <span class="or-pill">o configura tú</span>
+    </div>
+  </div>
+
+  <!-- ── Hardware manual ── -->
+  <div class="card">
+    <p class="section-title">Tu equipo</p>
+    <div class="grid2" style="margin-bottom: 0.75rem;">
+      <div class="field">
+        <label>
+          <svg class="ico" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg>
+          Procesador
+        </label>
+        <select id="cpu" onchange="syncSelects()">
+          <option value="">Cualquier CPU</option>
+          <option value="1">Intel Core i3 / AMD Ryzen 3 (gama básica)</option>
+          <option value="2">Intel Core i5 / AMD Ryzen 5 (gama media)</option>
+          <option value="3">Intel Core i7 / AMD Ryzen 7 (gama alta)</option>
+          <option value="4">Intel Core i9 / AMD Ryzen 9 (gama alta+)</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>
+          <svg class="ico" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 7V5M10 7V5M14 7V5M18 7V5M6 17v2M10 17v2M14 17v2M18 17v2"/></svg>
+          Memoria RAM
+        </label>
+        <select id="ram" onchange="syncSelects()">
+          <option value="">Cualquier RAM</option>
+          <option value="4">4 GB</option>
+          <option value="8">8 GB</option>
+          <option value="16">16 GB</option>
+          <option value="32">32 GB</option>
+          <option value="64">64 GB</option>
+        </select>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="field">
+        <label>
+          <svg class="ico" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 12h4M14 12h4M12 9v6"/></svg>
+          Tarjeta gráfica
+        </label>
+        <select id="gpu" onchange="syncSelects()">
+          <option value="">Cualquier GPU</option>
+          <option value="1">NVIDIA GTX 1650 / AMD RX 6600 (gama básica)</option>
+          <option value="2">NVIDIA RTX 3060 / AMD RX 6700 XT (gama media)</option>
+          <option value="3">NVIDIA RTX 4070 / AMD RX 7800 XT (gama alta)</option>
+          <option value="4">NVIDIA RTX 4090 / AMD RX 7900 XTX (gama alta+)</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>
+          <svg class="ico" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          Sistema operativo
+        </label>
+        <select id="os" onchange="syncSelects()">
+          <option value="">Cualquier OS</option>
+          <option value="win10">Windows 10</option>
+          <option value="win11">Windows 11</option>
+          <option value="linux">Linux / SteamOS</option>
+          <option value="mac">macOS</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Filtros opcionales ── -->
+  <div class="card">
+    <p class="section-title">Filtros opcionales</p>
+    <div class="grid3">
+      <div class="field">
+        <label>
+          <svg class="ico" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><circle cx="7" cy="7" r="1.5" fill="currentColor"/></svg>
+          Género principal
+        </label>
+        <select id="genre1">
+          <option value="">Cualquier género</option>
+          <option value="rpg">RPG</option>
+          <option value="jrpg">JRPG</option>
+          <option value="soulslike">Soulslike</option>
+          <option value="openworld">Mundo abierto</option>
+          <option value="fps">FPS</option>
+          <option value="strategy">Estrategia</option>
+          <option value="platformer">Plataformas</option>
+          <option value="horror">Terror</option>
+          <option value="fantasy">Fantasía</option>
+          <option value="roguelite">Roguelite</option>
+          <option value="metroidvania">Metroidvania</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>
+          <svg class="ico" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><circle cx="7" cy="7" r="1.5" fill="currentColor"/></svg>
+          Género secundario
+        </label>
+        <select id="genre2">
+          <option value="">Cualquier género</option>
+          <option value="rpg">RPG</option>
+          <option value="jrpg">JRPG</option>
+          <option value="soulslike">Soulslike</option>
+          <option value="openworld">Mundo abierto</option>
+          <option value="fps">FPS</option>
+          <option value="strategy">Estrategia</option>
+          <option value="platformer">Plataformas</option>
+          <option value="horror">Terror</option>
+          <option value="fantasy">Fantasía</option>
+          <option value="roguelite">Roguelite</option>
+          <option value="metroidvania">Metroidvania</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>
+          <svg class="ico" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Multijugador
+        </label>
+        <select id="multi">
+          <option value="">Indiferente</option>
+          <option value="solo">Solo single-player</option>
+          <option value="pvp">PvP</option>
+          <option value="coop">Cooperativo</option>
+        </select>
+      </div>
+    </div>
+
+    <button class="btn-search" onclick="buscar()">
+      <svg class="ico" style="width:18px;height:18px;stroke:#fff" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      Buscar juegos compatibles
+    </button>
+  </div>
+
+  <!-- ── Resultados ── -->
+  <div id="results"></div>
+
+</div>
+
+<script>
+  /* ── Base de datos de juegos ──────────────────────────────────────────
+     Se carga desde games.json (datos reales, generados por generar_games.py).
+     Cada juego tiene min/rec con niveles cpu(1-4) / ram(GB) / gpu(1-4) / os[]
+  ──────────────────────────────────────────────────────────────────── */
+  let GAMES = [];
+
+  async function cargarJuegos() {
+    try {
+      const res = await fetch('games.json');
+      GAMES = await res.json();
+    } catch (err) {
+      $('results').innerHTML = `
+        <div class="empty">
+          <span class="icon">⚠️</span>
+          No se pudo cargar games.json.<br>
+          Comprueba que el archivo está en la misma carpeta que index.html.
+        </div>`;
+    }
+  }
+  cargarJuegos();
+
+  /* ── Specs de dispositivos prefabricados ── */
+  const PREFABS = {
+    steamdeck: { cpu:"2", ram:"16", gpu:"2", os:"linux" },
+    rogally:   { cpu:"3", ram:"16", gpu:"3", os:"win11" },
+    legionGo:  { cpu:"3", ram:"16", gpu:"3", os:"win11" },
+    gpd:       { cpu:"3", ram:"16", gpu:"3", os:"win11" },
+  };
+
+  /* ── Helpers ── */
+  function $(id) { return document.getElementById(id); }
+
+  function onPrefab() {
+    const val = $('prefab').value;
+    const locked = !!val;
+    ['cpu','ram','gpu','os'].forEach(id => { $(id).disabled = locked; });
+    if (val && PREFABS[val]) {
+      const p = PREFABS[val];
+      $('cpu').value = p.cpu;
+      $('ram').value = p.ram;
+      $('gpu').value = p.gpu;
+      $('os').value  = p.os;
+    }
+  }
+
+  function syncSelects() {
+    $('prefab').value = '';
+    ['cpu','ram','gpu','os'].forEach(id => { $(id).disabled = false; });
+  }
+
+  /* ── Lógica de búsqueda ── */
+  function buscar() {
+    const cpu   = parseInt($('cpu').value)  || 0;
+    const ram   = parseInt($('ram').value)  || 0;
+    const gpu   = parseInt($('gpu').value)  || 0;
+    const os    = $('os').value;
+    const g1    = $('genre1').value;
+    const g2    = $('genre2').value;
+    const multi = $('multi').value;
+
+    const nada  = !cpu && !ram && !gpu && !os && !g1 && !g2 && !multi;
+
+    const found = GAMES.filter(g => {
+      if (cpu   && g.min.cpu > cpu)            return false;
+      if (ram   && g.min.ram > ram)            return false;
+      if (gpu   && g.min.gpu > gpu)            return false;
+      if (os    && !g.min.os.includes(os))     return false;
+      if (g1    && !g.genres.includes(g1))     return false;
+      if (g2    && !g.genres.includes(g2))     return false;
+      if (multi === 'solo' && !g.multi.includes('solo')) return false;
+      if (multi === 'pvp'  && !g.multi.includes('pvp'))  return false;
+      if (multi === 'coop' && !g.multi.includes('coop')) return false;
+      return true;
+    });
+
+    renderResults(nada ? GAMES : found, { cpu, ram, gpu });
+  }
+
+  /* ── Renderizado ── */
+  function genreName(g) {
+    const map = { rpg:'RPG', jrpg:'JRPG', soulslike:'Soulslike', openworld:'Mundo abierto',
+      fps:'FPS', strategy:'Estrategia', platformer:'Plataformas', horror:'Terror',
+      fantasy:'Fantasía', roguelite:'Roguelite', metroidvania:'Metroidvania' };
+    return map[g] || g;
+  }
+  function multiName(m) {
+    return m === 'solo' ? 'Single-player' : m === 'pvp' ? 'PvP' : 'Co-op';
+  }
+
+  function renderResults(list, specs) {
+    const el = $('results');
+    if (list.length === 0) {
+      el.innerHTML = `
+        <div class="empty">
+          <span class="icon">🎮</span>
+          Sin resultados con esos filtros.<br>
+          Prueba a ampliar los requisitos o quita algún filtro.
+        </div>`;
+      return;
+    }
+    const header = `<p class="results-header">${list.length} juego${list.length !== 1 ? 's' : ''} compatible${list.length !== 1 ? 's' : ''}</p>`;
+    const cards = list.map(g => {
+      const genres = (g.genres || []).map(x => `<span class="tag tag-genre">${genreName(x)}</span>`).join('');
+      const multis = (g.multi  || []).map(x => `<span class="tag tag-multi">${multiName(x)}</span>`).join('');
+
+      let compatTag = `<span class="tag tag-compat">✓ Compatible</span>`;
+      if (specs && (specs.cpu || specs.ram || specs.gpu)) {
+        const cumpleRec =
+          (!specs.cpu || g.rec.cpu <= specs.cpu) &&
+          (!specs.ram || g.rec.ram <= specs.ram) &&
+          (!specs.gpu || g.rec.gpu <= specs.gpu);
+        compatTag = cumpleRec
+          ? `<span class="tag tag-compat">✓ Recomendado</span>`
+          : `<span class="tag tag-compat">✓ Mínimo cumplido</span>`;
+      }
+
+      return `
+        <div class="game-card">
+          <div class="game-thumb"><img src="${g.thumb}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:10px;" onerror="this.style.display='none'"></div>
+          <div class="game-body">
+            <p class="game-title">${g.title}</p>
+            <p class="game-desc">${g.desc}</p>
+            <div class="tags">
+              ${genres}${multis}
+              ${compatTag}
+            </div>
+          </div>
+        </div>`;
+    }).join('');
+    el.innerHTML = header + cards;
+  }
+</script>
+</body>
+</html>
