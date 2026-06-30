@@ -256,6 +256,10 @@
     }
     .empty .icon { font-size: 2.5rem; display: block; margin-bottom: 0.75rem; }
 
+    /* ── Contador de visitas ── */
+    .header-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .visit-counter { font-size: 14px; color: #888; text-align: right; white-space: nowrap; font-weight: 500; }
+
     /* ── Icono SVG inline ── */
     .ico {
       width: 14px;
@@ -274,8 +278,13 @@
 <div class="container">
 
   <header>
-    <h1>¿Puede mi PC <span>correrlo</span>?</h1>
-    <p>Encuentra juegos compatibles con tu hardware en segundos</p>
+    <div class="header-row">
+      <div>
+        <h1>¿Puede mi PC <span>correrlo</span>?</h1>
+        <p>Encuentra juegos compatibles con tu hardware en segundos</p>
+      </div>
+      <div id="visit-counter" class="visit-counter"></div>
+    </div>
   </header>
 
   <!-- ── Prefabricados ── -->
@@ -569,6 +578,22 @@
     }).join('');
     el.innerHTML = header + cards;
   }
+
+  // =============================================
+  // CONTADOR DE VISITAS GLOBAL
+  // Usa counterapi.dev, servicio gratuito sucesor de countapi.xyz
+  // =============================================
+  fetch('https://api.counterapi.dev/v1/ofertasspeedrun/hardware/up')
+    .then(res => res.json())
+    .then(data => {
+      const val = data.count ?? data.value ?? null;
+      if (val !== null) {
+        $('visit-counter').textContent = '👀 ' + Number(val).toLocaleString('es-ES') + ' visitas';
+      }
+    })
+    .catch(() => {
+      $('visit-counter').textContent = '';
+    });
 </script>
 </body>
 </html>
