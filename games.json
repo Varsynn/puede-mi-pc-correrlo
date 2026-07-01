@@ -165,6 +165,89 @@
     "owners": "10,000,000 .. 20,000,000"
   },
   {
+    "id": 7670,
+    "title": "BioShock™",
+    "desc": "BioShock es un shooter distinto a todos los que has jugado antes, lleno de armas y tácticas nunca vistas. Tendrás un com",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/7670/header.jpg",
+    "url": "https://store.steampowered.com/app/7670",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "winvista"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "winvista"
+      ]
+    },
+    "genres": [
+      "horror",
+      "fps",
+      "action",
+      "scifi"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 96,
+    "release": "21 AGO 2007",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 620,
+    "title": "Portal 2",
+    "desc": "¡La «Iniciativa de Prueba Perpetua» se ha ampliado, permitiéndote ahora diseñar puzles cooperativos para ti y tus amigos",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
+    "url": "https://store.steampowered.com/app/620",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "scifi",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 95,
+    "release": "18 ABR 2011",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
     "id": 1245620,
     "title": "ELDEN RING",
     "desc": "EL NUEVO JUEGO DE ROL Y ACCIÓN DE AMBIENTACIÓN FANTÁSTICA. Álzate, Sinluz, y que la gracia te guíe para abrazar el poder",
@@ -242,6 +325,44 @@
     "release": "10 NOV 2011",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1145350,
+    "title": "Hades II",
+    "desc": "Usa las artes oscuras para abrirte paso más allá del inframundo y enfréntate al Titán del Tiempo en esta cautivadora con",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1145350/header.jpg",
+    "url": "https://store.steampowered.com/app/1145350",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "soulslike",
+      "indie",
+      "rpg",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 94,
+    "release": "25 SEP 2025",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 292030,
@@ -322,6 +443,196 @@
     "owners": "10,000,000 .. 20,000,000"
   },
   {
+    "id": 1145360,
+    "title": "Hades",
+    "desc": "Desafía al dios de los muertos y protagoniza una salvaje fuga del Inframundo en este juego de exploración de mazmorras d",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
+    "url": "https://store.steampowered.com/app/1145360",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "rpg",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 93,
+    "release": "17 SEP 2020",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 435150,
+    "title": "Divinity: Original Sin 2 - Definitive Edition",
+    "desc": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg",
+    "url": "https://store.steampowered.com/app/435150",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "rpg",
+      "fantasy",
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 93,
+    "release": "14 SEP 2017",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1593500,
+    "title": "God of War",
+    "desc": "Kratos ha dejado atrás su venganza contra los dioses del Olimpo y vive ahora como un hombre en los dominios de los diose",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg",
+    "url": "https://store.steampowered.com/app/1593500",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "action",
+      "soulslike",
+      "adventure",
+      "openworld"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 93,
+    "release": "14 ENE 2022",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 620980,
+    "title": "Beat Saber",
+    "desc": "Beat Saber es un juego rítmico de RV donde rebanas los ritmos de la palpitante música mientras vuelan hacia ti, rodeado ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/620980/header.jpg",
+    "url": "https://store.steampowered.com/app/620980",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "fps"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 93,
+    "release": "21 MAY 2019",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 12120,
+    "title": "Grand Theft Auto: San Andreas",
+    "desc": "Five years ago Carl Johnson escaped from the pressures of life in Los Santos, San Andreas... a city tearing itself apart",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/12120/header.jpg",
+    "url": "https://store.steampowered.com/app/12120",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 384,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "openworld",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 93,
+    "release": "4 ENE 2008",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
     "id": 440,
     "title": "Team Fortress 2",
     "desc": "Nueve clases diferentes ofrecen una amplia variedad de habilidades tácticas y personalidades. Constantemente actualizado",
@@ -358,6 +669,47 @@
     "release": "10 OCT 2007",
     "spanish": true,
     "owners": "50,000,000 .. 100,000,000"
+  },
+  {
+    "id": 391540,
+    "title": "Undertale",
+    "desc": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg",
+    "url": "https://store.steampowered.com/app/391540",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 3,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "rpg"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 92,
+    "release": "15 SEP 2015",
+    "spanish": false,
+    "owners": "5,000,000 .. 10,000,000"
   },
   {
     "id": 526870,
@@ -433,6 +785,44 @@
     "release": "23 MAR 2023",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 205100,
+    "title": "Dishonored",
+    "desc": "Dishonored is an immersive first-person action game that casts you as a supernatural assassin driven by revenge. With Di",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/205100/header.jpg",
+    "url": "https://store.steampowered.com/app/205100",
+    "min": {
+      "cpu": 1,
+      "ram": 3,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "winvista"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "winvista"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "adventure",
+      "openworld"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 91,
+    "release": "10 OCT 2012",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 901583,
@@ -548,6 +938,200 @@
     "release": "23 SEP 2010",
     "spanish": true,
     "owners": "10,000,000 .. 20,000,000"
+  },
+  {
+    "id": 427520,
+    "title": "Factorio",
+    "desc": "Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/427520/header.jpg",
+    "url": "https://store.steampowered.com/app/427520",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 16,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "casual",
+      "survival",
+      "sandbox"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 90,
+    "release": "14 AGO 2020",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 420,
+    "title": "Half-Life 2: Episode Two",
+    "desc": "Half-Life® 2: Episode Two es la segunda parte de la nueva trilogía creada por Valve que amplía la galardonada saga super",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/420/header.jpg",
+    "url": "https://store.steampowered.com/app/420",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "winvista",
+        "winxp"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "winvista",
+        "winxp"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "fps",
+      "action",
+      "horror"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 90,
+    "release": "10 OCT 2007",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1868140,
+    "title": "DAVE THE DIVER",
+    "desc": "DAVE THE DIVER es un juego casual de rol y aventuras para un solo jugador que incluye elementos de pesca y exploración d",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1868140/header.jpg",
+    "url": "https://store.steampowered.com/app/1868140",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "casual",
+      "rpg"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 90,
+    "release": "28 JUN 2023",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 12210,
+    "title": "Grand Theft Auto IV: The Complete Edition",
+    "desc": "Niko Bellic, Johnny Klebitz y Luis Lopez tienen una cosa en común: viven en la peor ciudad de Estados Unidos. En Liberty",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/12210/header.jpg",
+    "url": "https://store.steampowered.com/app/12210",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "adventure",
+      "openworld"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 90,
+    "release": "24 MAR 2020",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 2379780,
+    "title": "Balatro",
+    "desc": "El roguelike de póker. Balatro es un hipnótico y genial constructor de mazos donde podrás jugar manos ilegales de póker,",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/2379780/header.jpg",
+    "url": "https://store.steampowered.com/app/2379780",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win8",
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win8",
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "casual",
+      "strategy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 90,
+    "release": "20 FEB 2024",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 550,
@@ -749,6 +1333,209 @@
     ],
     "metacritic": 89,
     "release": "24 ENE 2019",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 601150,
+    "title": "Devil May Cry 5",
+    "desc": "El cazademonios definitivo vuelve con estilo en el juego que los fans de la acción estaban esperando.",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/601150/header.jpg",
+    "url": "https://store.steampowered.com/app/601150",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 89,
+    "release": "7 MAR 2019",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 646570,
+    "title": "Slay the Spire",
+    "desc": "Hemos fusionado juegos de cartas y roguelikes para crear el mejor juego de cartas para un solo jugador que pudiéramos. C",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/646570/header.jpg",
+    "url": "https://store.steampowered.com/app/646570",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "indie",
+      "fantasy",
+      "strategy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 89,
+    "release": "23 ENE 2019",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 588650,
+    "title": "Dead Cells",
+    "desc": "Dead Cells es un juego de acción de plataformas de estilo roguelite inspirado en juegos tipo metroidvania. Explorarás un",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/588650/header.jpg",
+    "url": "https://store.steampowered.com/app/588650",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "metroidvania",
+      "action",
+      "soulslike"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 89,
+    "release": "6 AGO 2018",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 500,
+    "title": "Left 4 Dead",
+    "desc": "De la mano de Valve llega Left 4 Dead, un juego cooperativo de acción y terror en el que hasta cuatro jugadores se enfre",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/500/header.jpg",
+    "url": "https://store.steampowered.com/app/500",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "horror",
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 89,
+    "release": "17 NOV 2008",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 374320,
+    "title": "DARK SOULS™ III",
+    "desc": "Dark Souls continúa redefiniendo los límites con el nuevo y ambicioso capítulo de esta serie revolucionaria, tan aclamad",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg",
+    "url": "https://store.steampowered.com/app/374320",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "openworld",
+      "soulslike",
+      "fantasy",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 89,
+    "release": "11 ABR 2016",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
   },
@@ -1034,6 +1821,197 @@
     "owners": "5,000,000 .. 10,000,000"
   },
   {
+    "id": 268910,
+    "title": "Cuphead",
+    "desc": "Cuphead es un juego de acción clásico estilo &quot;dispara y corre&quot; que se centra en combates contra el jefe. Inspi",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg",
+    "url": "https://store.steampowered.com/app/268910",
+    "min": {
+      "cpu": 1,
+      "ram": 3,
+      "gpu": 1,
+      "os": [
+        "win7"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "soulslike",
+      "indie",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 88,
+    "release": "29 SEP 2017",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 782330,
+    "title": "DOOM Eternal",
+    "desc": "Los ejércitos del infierno han invadido la Tierra. Ponte en la piel del Slayer en una épica campaña para un jugador y cr",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg",
+    "url": "https://store.steampowered.com/app/782330",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "fps",
+      "action",
+      "horror"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 88,
+    "release": "19 MAR 2020",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 20920,
+    "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+    "desc": "Ha llegado una época de caos sin precedentes. Fuerzas poderosas se enfrentan entre bastidores en una lucha por el poder ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/20920/header.jpg",
+    "url": "https://store.steampowered.com/app/20920",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "openworld",
+      "rpg",
+      "fantasy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 88,
+    "release": "16 ABR 2012",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 8500,
+    "title": "EVE Online",
+    "desc": "¡Más de 20 años de legendaria batalla espacial! Explora un vasto universo vivo lleno de peligros y oportunidades en un d",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/8500/header.jpg",
+    "url": "https://store.steampowered.com/app/8500",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "action",
+      "mmo",
+      "scifi",
+      "sandbox"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 88,
+    "release": "15 DIC 2010",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 48000,
+    "title": "LIMBO",
+    "desc": "Dudoso sobre el destino de su hermana, un niño entra en LIMBO",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/48000/header.jpg",
+    "url": "https://store.steampowered.com/app/48000",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "win7",
+        "winvista"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "win7",
+        "winvista"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "horror",
+      "indie",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 88,
+    "release": "2 AGO 2011",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
     "id": 239140,
     "title": "Dying Light",
     "desc": "Juego de supervivencia ambientado en un mundo abierto postapocalíptico cubierto de zombis hambrientos. Explora una ciuda",
@@ -1186,6 +2164,198 @@
     "release": "13 AGO 2013",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 594570,
+    "title": "Total War: WARHAMMER II",
+    "desc": "Toma el mando de las fuerzas de Lustria. Elige un Señor legendario, expande tus ejércitos, forja alianzas en una campaña",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/594570/header.jpg",
+    "url": "https://store.steampowered.com/app/594570",
+    "min": {
+      "cpu": 1,
+      "ram": 5,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win8",
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win7",
+        "win8",
+        "win10"
+      ]
+    },
+    "genres": [
+      "fantasy",
+      "action",
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 87,
+    "release": "28 SEP 2017",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 380,
+    "title": "Half-Life 2: Episode One",
+    "desc": "Half-Life 2 ha vendido más de 4 millones de copias en todo el mundo y recibido más de 35 galardones como mejor juego del",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/380/header.jpg",
+    "url": "https://store.steampowered.com/app/380",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "winvista",
+        "winxp"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "winvista",
+        "winxp"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 87,
+    "release": "1 JUN 2006",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 294100,
+    "title": "RimWorld",
+    "desc": "Un simulador de colonias de ciencia ficción dirigido por una brillante Inteligencia Artificial que narrará la historia. ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/294100/header.jpg",
+    "url": "https://store.steampowered.com/app/294100",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win7"
+      ]
+    },
+    "genres": [
+      "indie",
+      "scifi",
+      "survival",
+      "sandbox"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 87,
+    "release": "17 OCT 2018",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 304430,
+    "title": "INSIDE",
+    "desc": "Perseguido y solo, un niño se encuentra, sin comerlo ni beberlo, en medio de un proyecto oscuro.",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/304430/header.jpg",
+    "url": "https://store.steampowered.com/app/304430",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "horror",
+      "indie",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 87,
+    "release": "7 JUL 2016",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 3590,
+    "title": "Plants vs. Zombies GOTY Edition",
+    "desc": "¡Un nuevo juego de acción y estrategia de la mano de PopCap, los creadores de Bejeweled y Peggle! Los zombis están invad",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/3590/header.jpg",
+    "url": "https://store.steampowered.com/app/3590",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "win7",
+        "winvista"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "win7",
+        "winvista"
+      ]
+    },
+    "genres": [
+      "survival",
+      "strategy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 87,
+    "release": "5 MAY 2009",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 238960,
@@ -1462,6 +2632,159 @@
     "owners": "5,000,000 .. 10,000,000"
   },
   {
+    "id": 1237970,
+    "title": "Titanfall® 2",
+    "desc": "Incluye todo el contenido de Digital Deluxe, el pack Arranque para subir de nivel y desbloquear artículos más rápido, y ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1237970/header.jpg",
+    "url": "https://store.steampowered.com/app/1237970",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 86,
+    "release": "18 JUN 2020",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 10190,
+    "title": "Call of Duty®: Modern Warfare® 2 (2009)",
+    "desc": "El juego más esperado del año y la secuela del juego de acción en primera persona número uno en ventas de todos los tiem",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/10190/header.jpg",
+    "url": "https://store.steampowered.com/app/10190",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 86,
+    "release": "11 NOV 2009",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 2630,
+    "title": "Call of Duty® 2",
+    "desc": "Call of Duty® 2 da un nuevo significado a la intensidad cinematográfica y al caos de la batalla, tal y como se vive a tr",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/2630/header.jpg",
+    "url": "https://store.steampowered.com/app/2630",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 86,
+    "release": "13 OCT 2006",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 206420,
+    "title": "Saints Row IV: Re-Elected",
+    "desc": "No te pierdas las desternillantes locuras de Saints Row IV. Los Saints han pasado del ático a la Casa Blanca, pero la Ti",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/206420/header.jpg",
+    "url": "https://store.steampowered.com/app/206420",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "action",
+      "scifi",
+      "adventure",
+      "openworld"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 86,
+    "release": "22 AGO 2013",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
     "id": 945360,
     "title": "Among Us",
     "desc": "Un juego de socialización local o en línea de trabajo en equipo y traición para 4 a 15 jugadores... ¡ambientado en el es",
@@ -1657,6 +2980,244 @@
     "owners": "5,000,000 .. 10,000,000"
   },
   {
+    "id": 1286830,
+    "title": "STAR WARS™: The Old Republic™",
+    "desc": "STAR WARS™: The Old Republic™ es un MMORPG gratuito que te sitúa en el centro de tu propia historia dentro de la saga. J",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1286830/header.jpg",
+    "url": "https://store.steampowered.com/app/1286830",
+    "min": {
+      "cpu": 1,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 6,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "mmo",
+      "scifi",
+      "rpg",
+      "openworld"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 85,
+    "release": "21 JUL 2020",
+    "spanish": false,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 779340,
+    "title": "Total War: THREE KINGDOMS",
+    "desc": "Unifica la antigua China bajo tu mando con una emocionante combinación de creación de imperio por turnos y batallas en t",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/779340/header.jpg",
+    "url": "https://store.steampowered.com/app/779340",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "fantasy",
+      "action",
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 85,
+    "release": "23 MAY 2019",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 548430,
+    "title": "Deep Rock Galactic",
+    "desc": "Deep Rock Galactic es un FPS cooperativo para 1 a 4 jugadores. Juega con unos fornidos enanos espaciales en entornos 100",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg",
+    "url": "https://store.steampowered.com/app/548430",
+    "min": {
+      "cpu": 1,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "fps",
+      "action",
+      "scifi"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 85,
+    "release": "13 MAY 2020",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 57300,
+    "title": "Amnesia: The Dark Descent",
+    "desc": "Amnesia: The Dark Descent, a first person survival horror. A game about immersion, discovery and living through a nightm",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/57300/header.jpg",
+    "url": "https://store.steampowered.com/app/57300",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "win7",
+        "winvista"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "win7",
+        "winvista"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 85,
+    "release": "8 SEP 2010",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 504370,
+    "title": "Battlerite",
+    "desc": "BATTLERITE es una arena de batallas por equipos llena de acción. Experimenta la combinación única de un shooter visto de",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/504370/header.jpg",
+    "url": "https://store.steampowered.com/app/504370",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 85,
+    "release": "8 NOV 2017",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 457140,
+    "title": "Oxygen Not Included",
+    "desc": "Oxygen Not Included is a space-colony simulation game. Deep inside an alien space rock your industrious crew will need t",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/457140/header.jpg",
+    "url": "https://store.steampowered.com/app/457140",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "scifi",
+      "survival",
+      "sandbox"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 85,
+    "release": "30 JUL 2019",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
     "id": 377160,
     "title": "Fallout 4",
     "desc": "De Bethesda Game Studios, los galardonados creadores de Starfield y The Elder Scrolls V: Skyrim, llega Fallout 4. Un hit",
@@ -1779,6 +3340,353 @@
     "release": "21 OCT 2010",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1100600,
+    "title": "Football Manager 2020",
+    "desc": "Da buen uso a tus opiniones y haz las cosas a tu manera en tu club esta temporada. En FM20, cada decisión cuenta gracias",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1100600/header.jpg",
+    "url": "https://store.steampowered.com/app/1100600",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win8",
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sports"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 84,
+    "release": "19 NOV 2019",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 241930,
+    "title": "Middle-earth™: Shadow of Mordor™",
+    "desc": "Lucha en Mordor, descubre la verdad del espíritu que te fuerza, el origen de los Anillos de Poder, erige tu leyenda y en",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/241930/header.jpg",
+    "url": "https://store.steampowered.com/app/241930",
+    "min": {
+      "cpu": 3,
+      "ram": 3,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "openworld",
+      "fantasy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 84,
+    "release": "30 SEP 2014",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 55230,
+    "title": "Saints Row: The Third",
+    "desc": "¡Prepárate para los escenarios de juego más extravagantes mientras los Third Street Saints se hacen con el Sindicato!",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/55230/header.jpg",
+    "url": "https://store.steampowered.com/app/55230",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "openworld",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 84,
+    "release": "17 NOV 2011",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 262060,
+    "title": "Darkest Dungeon®",
+    "desc": "Darkest Dungeon es un desafiante juego de rol gótico en mazmorras y por turnos que gira en torno al esfuerzo psicológico",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/262060/header.jpg",
+    "url": "https://store.steampowered.com/app/262060",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "winxp"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win7"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "rpg",
+      "fantasy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 84,
+    "release": "19 ENE 2016",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 8190,
+    "title": "Just Cause 2",
+    "desc": "Sumérgete en una aventura frenética con total libertad, con más de 400 millas cuadradas de terreno escabroso y centenare",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/8190/header.jpg",
+    "url": "https://store.steampowered.com/app/8190",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 3,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "adventure",
+      "openworld"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 84,
+    "release": "23 MAR 2010",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 323190,
+    "title": "Frostpunk",
+    "desc": "Frostpunk es el primer juego de supervivencia de una sociedad. Como dirigente de la última ciudad del mundo, tu deber se",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/323190/header.jpg",
+    "url": "https://store.steampowered.com/app/323190",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "survival",
+      "strategy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 84,
+    "release": "24 ABR 2018",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 813780,
+    "title": "Age of Empires II: Definitive Edition",
+    "desc": "Age of Empires II: Definitive Edition incluye &quot;Los últimos khanes&quot;, que incorpora 3 campañas y 4 civilizacione",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
+    "url": "https://store.steampowered.com/app/813780",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 84,
+    "release": "14 NOV 2019",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 212680,
+    "title": "FTL: Faster Than Light",
+    "desc": "Este simulador de exploración espacial te permite vivir una gran aventura con tu nave y su tripulación. Descubre una gal",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/212680/header.jpg",
+    "url": "https://store.steampowered.com/app/212680",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "winvista",
+        "win7"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "winvista",
+        "win7"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "indie",
+      "survival",
+      "strategy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 84,
+    "release": "14 SEP 2012",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 311690,
+    "title": "Enter the Gungeon",
+    "desc": "Enter the Gungeon es un dungeon crawler de tiroteos que sigue a una banda de marginados arrepentidos en su intento de co",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/311690/header.jpg",
+    "url": "https://store.steampowered.com/app/311690",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "indie",
+      "action",
+      "fps"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 84,
+    "release": "5 ABR 2016",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 105600,
@@ -2142,6 +4050,233 @@
     "owners": "5,000,000 .. 10,000,000"
   },
   {
+    "id": 233450,
+    "title": "Prison Architect",
+    "desc": "Solo los alcaides más despiadados pueden contener a los criminales más peligrosos. Diseña al dedillo tu penitenciaría en",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/233450/header.jpg",
+    "url": "https://store.steampowered.com/app/233450",
+    "min": {
+      "cpu": 1,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 6,
+      "gpu": 3,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "indie",
+      "strategy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 83,
+    "release": "6 OCT 2015",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 252130,
+    "title": "Divide By Sheep",
+    "desc": "Divide By Sheep is a mind-bending math puzzler about friendship and slicing sheep in half with lasers. The Grim Reaper f",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/252130/header.jpg",
+    "url": "https://store.steampowered.com/app/252130",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win8",
+        "win9"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win8",
+        "win9"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "indie",
+      "casual",
+      "fps"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 83,
+    "release": "2 JUL 2015",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 39210,
+    "title": "FINAL FANTASY XIV Online",
+    "desc": "Únete a más de 30 millones de aventureros de todo el mundo y forma parte de un alucinante viaje en un increíble FINAL FA",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/39210/header.jpg",
+    "url": "https://store.steampowered.com/app/39210",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win11"
+      ]
+    },
+    "genres": [
+      "jrpg",
+      "mmo",
+      "openworld",
+      "rpg"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 83,
+    "release": "18 FEB 2014",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1196590,
+    "title": "Resident Evil Village",
+    "desc": "Vive el survival horror como nunca antes en la 8.ª entrega principal de la aclamada serie Resident Evil: Resident Evil V",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg",
+    "url": "https://store.steampowered.com/app/1196590",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 5,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 5,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 83,
+    "release": "6 MAY 2021",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 962130,
+    "title": "Grounded",
+    "desc": "The world is a vast, beautiful and dangerous place – especially when you have been shrunk to the size of an ant. Can you",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/962130/header.jpg",
+    "url": "https://store.steampowered.com/app/962130",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 83,
+    "release": "27 SEP 2022",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 274190,
+    "title": "Broforce",
+    "desc": "Broforce es una oda a la libertad de desplazamiento lateral repleta de acción en la que controlas a una organización par",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/274190/header.jpg",
+    "url": "https://store.steampowered.com/app/274190",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "fps",
+      "casual",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 83,
+    "release": "15 OCT 2015",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
     "id": 2183900,
     "title": "Warhammer 40,000: Space Marine 2",
     "desc": "Usa las habilidades y brutalidad sobrehumanas de los marines espaciales. Usa habilidades letales y armamento devastador ",
@@ -2178,6 +4313,81 @@
     ],
     "metacritic": 82,
     "release": "9 SEP 2024",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 863550,
+    "title": "HITMAN™ 2",
+    "desc": "Viaja alrededor del mundo rastreando a tus objetivos en los exóticos lugares del mundo abierto de HITMAN™ 2. Desde solea",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/863550/header.jpg",
+    "url": "https://store.steampowered.com/app/863550",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "openworld",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 82,
+    "release": "13 NOV 2018",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1332010,
+    "title": "Stray",
+    "desc": "Perdido, solo y separado de su familia, un gato callejero debe desentrañar un antiguo misterio para escapar de una ciber",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1332010/header.jpg",
+    "url": "https://store.steampowered.com/app/1332010",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "scifi",
+      "adventure"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 82,
+    "release": "19 JUL 2022",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
   },
@@ -2299,6 +4509,155 @@
     "release": "27 AGO 2019",
     "spanish": true,
     "owners": "10,000,000 .. 20,000,000"
+  },
+  {
+    "id": 424840,
+    "title": "Little Nightmares",
+    "desc": "¡Sumérgete en la enigmática atmósfera de Little Nightmares y enfréntate a los miedos de tu infancia! Ayuda a Seis a esca",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/424840/header.jpg",
+    "url": "https://store.steampowered.com/app/424840",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win7"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "horror"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 81,
+    "release": "27 ABR 2017",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 211820,
+    "title": "Starbound",
+    "desc": "You’ve fled your home, only to find yourself lost in space with a damaged ship. Your only option is to beam down to the ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/211820/header.jpg",
+    "url": "https://store.steampowered.com/app/211820",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "casual",
+      "action",
+      "scifi"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 81,
+    "release": "22 JUL 2016",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1172380,
+    "title": "STAR WARS Jedi: La Orden caída™",
+    "desc": "Una aventura de dimensiones galácticas te espera en STAR WARS Jedi: Fallen Order, un juego de acción-aventura en tercera",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1172380/header.jpg",
+    "url": "https://store.steampowered.com/app/1172380",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "metroidvania",
+      "action",
+      "scifi",
+      "soulslike"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 81,
+    "release": "14 NOV 2019",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 397540,
+    "title": "Borderlands 3",
+    "desc": "¡Vuelve el padre de los shooter-looter, con una aventura llena de caos y tropecientas mil armas!",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/397540/header.jpg",
+    "url": "https://store.steampowered.com/app/397540",
+    "min": {
+      "cpu": 3,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "openworld",
+      "fps",
+      "rpg",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 81,
+    "release": "13 MAR 2020",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 899770,
@@ -2455,6 +4814,80 @@
     "release": "22 MAY 2017",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 231430,
+    "title": "Company of Heroes 2",
+    "desc": "Goza del juego RTS más completo sobre la Segunda Guerra mundial con COH2 y sus expansiones. Este paquete incluye el jueg",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/231430/header.jpg",
+    "url": "https://store.steampowered.com/app/231430",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 80,
+    "release": "25 JUN 2013",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1222140,
+    "title": "Detroit: Become Human",
+    "desc": "Detroit: Become Human pone el destino de la humanidad y los androides en tus manos. Cada decisión que tomes afectará al ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1222140/header.jpg",
+    "url": "https://store.steampowered.com/app/1222140",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 12,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "scifi",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 80,
+    "release": "18 JUN 2020",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 218620,
@@ -2615,6 +5048,122 @@
     "owners": "5,000,000 .. 10,000,000"
   },
   {
+    "id": 48700,
+    "title": "Mount & Blade: Warband",
+    "desc": "En una tierra dividida por una guerra continua, ha llegado el momento de formar tu propia banda de duros guerreros y par",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/48700/header.jpg",
+    "url": "https://store.steampowered.com/app/48700",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "sandbox",
+      "openworld"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 78,
+    "release": "31 MAR 2010",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 281990,
+    "title": "Stellaris",
+    "desc": "Explora una galaxia repleta de maravillas con este juego de ciencia ficción y gran estrategia de Paradox Development Stu",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/281990/header.jpg",
+    "url": "https://store.steampowered.com/app/281990",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "scifi",
+      "strategy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 78,
+    "release": "9 MAY 2016",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 6060,
+    "title": "STAR WARS™ Battlefront II (Classic, 2005)",
+    "desc": "Join the rise of Darth Vader’s elite 501st Legion of Stormtroopers as you fight through an all new story-based saga wher",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/6060/header.jpg",
+    "url": "https://store.steampowered.com/app/6060",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 78,
+    "release": "8 JUL 2009",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
     "id": 261550,
     "title": "Mount & Blade II: Bannerlord",
     "desc": "A strategy/action RPG. Create a character, engage in diplomacy, craft, trade and conquer new lands in a vast medieval sa",
@@ -2724,6 +5273,194 @@
     "release": "10 FEB 2015",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 630,
+    "title": "Alien Swarm",
+    "desc": "Juego multijugador cooperativo y código base completo disponibles de forma gratuita.",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/630/header.jpg",
+    "url": "https://store.steampowered.com/app/630",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 77,
+    "release": "19 JUL 2010",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 304390,
+    "title": "FOR HONOR™",
+    "desc": "Lucha solo o con amigos en For Honor, un juego de lucha cuerpo a cuerpo en tercera persona basado en héroes. Entra en el",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/304390/header.jpg",
+    "url": "https://store.steampowered.com/app/304390",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fantasy",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 76,
+    "release": "13 FEB 2017",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 395170,
+    "title": "DISTRAINT: Deluxe Edition",
+    "desc": "DISTRAINT Es una aventura de horror psicológico 2D para PC. Para asegurarse una posición de socio en la famosa empresa p",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/395170/header.jpg",
+    "url": "https://store.steampowered.com/app/395170",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "horror",
+      "indie",
+      "casual"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 76,
+    "release": "21 OCT 2015",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 24240,
+    "title": "PAYDAY™ The Heist",
+    "desc": "Toma el papel de un duro criminal profesional ejecutando atracos intensos y dinámicos, persiguiendo constantemente el si",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/24240/header.jpg",
+    "url": "https://store.steampowered.com/app/24240",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 76,
+    "release": "20 OCT 2011",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 270880,
+    "title": "American Truck Simulator",
+    "desc": "Experience legendary American trucks and deliver various cargoes across sunny California, sandy Nevada, and the Grand Ca",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/270880/header.jpg",
+    "url": "https://store.steampowered.com/app/270880",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 12,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "openworld",
+      "indie"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 76,
+    "release": "2 FEB 2016",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 1818750,
@@ -2878,6 +5615,164 @@
     "owners": "5,000,000 .. 10,000,000"
   },
   {
+    "id": 109600,
+    "title": "Neverwinter",
+    "desc": "Neverwinter is a free, action MMORPG based on the acclaimed Dungeons &amp; Dragons fantasy roleplaying game. Epic storie",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/109600/header.jpg",
+    "url": "https://store.steampowered.com/app/109600",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 6,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "action",
+      "mmo",
+      "adventure",
+      "openworld"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 74,
+    "release": "5 DIC 2013",
+    "spanish": false,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 225540,
+    "title": "Just Cause™ 3",
+    "desc": "Con más de 1000 km² de total libertad desde el fondo del mar hasta el cielo, prepárate para desatar el caos de la manera",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/225540/header.jpg",
+    "url": "https://store.steampowered.com/app/225540",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "adventure",
+      "openworld"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 74,
+    "release": "30 NOV 2015",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 42910,
+    "title": "Magicka",
+    "desc": "¡Pack de cuatro ya disponible!",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/42910/header.jpg",
+    "url": "https://store.steampowered.com/app/42910",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "winvista",
+        "win7"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "winvista",
+        "win7"
+      ]
+    },
+    "genres": [
+      "fantasy",
+      "rpg",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 74,
+    "release": "25 ENE 2011",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 202970,
+    "title": "Call of Duty®: Black Ops II",
+    "desc": "Superando las expectativas de los fans con respecto a esta franquicia que ha batido todos los récords, Call of Duty®: Bl",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/202970/header.jpg",
+    "url": "https://store.steampowered.com/app/202970",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "winvista"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "winvista"
+      ]
+    },
+    "genres": [
+      "horror",
+      "fps",
+      "action",
+      "scifi"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 74,
+    "release": "12 NOV 2012",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
     "id": 278360,
     "title": "A Story About My Uncle",
     "desc": "A Story About My Uncle es un juego de plataformas en primera persona sobre un chico que va en busca de su tío desapareci",
@@ -2963,6 +5858,205 @@
     "release": "5 NOV 2015",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 33930,
+    "title": "Arma 2: Operation Arrowhead",
+    "desc": "Tres años después del conflicto de Chernarus representado en el Arma 2 original, un nuevo detonante explota en la Región",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/33930/header.jpg",
+    "url": "https://store.steampowered.com/app/33930",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "sandbox",
+      "openworld"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 73,
+    "release": "29 JUN 2010",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 234140,
+    "title": "Mad Max",
+    "desc": "Juega como Mad Max, héroe reacio y superviviente. Max tan solo anhela dejar atrás la locura y hallar la paz.",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/234140/header.jpg",
+    "url": "https://store.steampowered.com/app/234140",
+    "min": {
+      "cpu": 3,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win7",
+        "win8"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win81",
+        "win10"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "survival",
+      "adventure"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 73,
+    "release": "1 SEP 2015",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 208090,
+    "title": "Loadout",
+    "desc": "¡Oh, sí, Loadout es un shooter multijugador nuevo y extravagante en donde lo primero y lo último son las armas! Crea un ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/208090/header.jpg",
+    "url": "https://store.steampowered.com/app/208090",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "winvista",
+        "win7",
+        "win8"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "winvista",
+        "win7",
+        "win8"
+      ]
+    },
+    "genres": [
+      "indie",
+      "action",
+      "fps"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 72,
+    "release": "31 ENE 2014",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1222680,
+    "title": "Need for Speed™ Heat",
+    "desc": "No pares por el día y arriésgalo todo por la noche en Need for Speed™ Heat Deluxe Edition, un juego de carreras callejer",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1222680/header.jpg",
+    "url": "https://store.steampowered.com/app/1222680",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "racing",
+      "fps",
+      "action",
+      "sports"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 72,
+    "release": "4 JUN 2020",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1250,
+    "title": "Killing Floor",
+    "desc": "6-player co-op survival horror at its finest! Free updates, free special events and a ridiculous amount of fun!",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1250/header.jpg",
+    "url": "https://store.steampowered.com/app/1250",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "winvista"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "winvista"
+      ]
+    },
+    "genres": [
+      "horror",
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 72,
+    "release": "14 MAY 2009",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 346110,
@@ -3160,6 +6254,84 @@
     "owners": "20,000,000 .. 50,000,000"
   },
   {
+    "id": 221380,
+    "title": "Age of Empires II (Retired)",
+    "desc": "Age of Empires II se ha rediseñado en alta definición. Debido al lanzamiento de Age of Empires II: Definitive Edition, e",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/221380/header.jpg",
+    "url": "https://store.steampowered.com/app/221380",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 68,
+    "release": "9 ABR 2013",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 613100,
+    "title": "House Flipper",
+    "desc": "House Flipper te ofrece una oportunidad única de convertirte en un equipo de renovación de un solo hombre. Compra, repar",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/613100/header.jpg",
+    "url": "https://store.steampowered.com/app/613100",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "fps",
+      "casual",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 67,
+    "release": "17 MAY 2018",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
     "id": 100,
     "title": "Counter-Strike: Condition Zero",
     "desc": "Esta versión de Counter-Strike trae una extensa campaña Tour of Duty, un número casi ilimitado de escaramuzas, actualiza",
@@ -3332,6 +6504,82 @@
     "release": "12 AGO 2016",
     "spanish": true,
     "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 223470,
+    "title": "POSTAL 2",
+    "desc": "Live a week in the life of &quot;The POSTAL Dude&quot;; a hapless everyman just trying to check off some chores. Buying ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/223470/header.jpg",
+    "url": "https://store.steampowered.com/app/223470",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "fps",
+      "action",
+      "adventure"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 59,
+    "release": "2 NOV 2012",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 351940,
+    "title": "The Descendant",
+    "desc": "En THE DESCENDANT, el fin del mundo es sólo el principio. Con lo que queda de la humanidad protegida en instalaciones su",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/351940/header.jpg",
+    "url": "https://store.steampowered.com/app/351940",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 6,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "casual",
+      "scifi"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 59,
+    "release": "24 MAR 2016",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   },
   {
     "id": 730,
@@ -5915,5 +9163,2574 @@
     "release": "29 OCT 2021",
     "spanish": false,
     "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 844870,
+    "title": "KurtzPel",
+    "desc": "KurtzPel es un juego de acción en 3ª persona con estilo de anime. Los jugadores pueden batallar en sistemas de batalla P",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/844870/header.jpg",
+    "url": "https://store.steampowered.com/app/844870",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "early_access",
+      "fantasy",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "30 ABR 2019",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 365670,
+    "title": "Blender",
+    "desc": "Blender is the free and open source 3D creation suite. Free to use for everyone, for any purpose.",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/365670/header.jpg",
+    "url": "https://store.steampowered.com/app/365670",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 32,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sandbox"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "24 ABR 2015",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 319630,
+    "title": "Life is Strange - Episode 1",
+    "desc": "¡Primer episodio gratis! Life Is Strange es una aventura por episodios premiada y elogiada por la crítica que te permite",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/319630/header.jpg",
+    "url": "https://store.steampowered.com/app/319630",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "29 ENE 2015",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1293830,
+    "title": "Forza Horizon 4",
+    "desc": "Las estaciones dinámicas lo cambian todo en el mejor festival automovilístico del mundo. Ve por cuenta propia o únete a ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1293830/header.jpg",
+    "url": "https://store.steampowered.com/app/1293830",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 12,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "racing",
+      "openworld",
+      "fps"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "9 MAR 2021",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 671860,
+    "title": "BattleBit Remastered",
+    "desc": "BattleBit Remastered es un FPS multijugador masivo de bajo poligonaje que admite 254 jugadores por servidor. Lucha en un",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/671860/header.jpg",
+    "url": "https://store.steampowered.com/app/671860",
+    "min": {
+      "cpu": 3,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "mmo",
+      "early_access",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "15 JUN 2023",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 813820,
+    "title": "Realm Royale Reforged",
+    "desc": "¡Se el único en sobrevivir la Batalla en Realm Royale! Saquea armas mortales y habilidades poderosas para crear tu Campe",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/813820/header.jpg",
+    "url": "https://store.steampowered.com/app/813820",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win8",
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "early_access",
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "5 JUN 2018",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 976730,
+    "title": "Halo: The Master Chief Collection",
+    "desc": "El emblemático viaje del Jefe Maestro incluye seis juegos creados para PC y recopilados en una sola experiencia. Ya seas",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/976730/header.jpg",
+    "url": "https://store.steampowered.com/app/976730",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "fps",
+      "action",
+      "horror"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "3 DIC 2019",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 439700,
+    "title": "Z1 Battle Royale: Test Server",
+    "desc": "Z1 Battle Royale is a Free to Play, fast-paced, action arcade, competitive Battle Royale. Staying true to its &quot;King",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/439700/header.jpg",
+    "url": "https://store.steampowered.com/app/439700",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 3,
+      "os": [
+        "win7"
+      ]
+    },
+    "genres": [
+      "mmo",
+      "openworld",
+      "fps",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "24 FEB 2016",
+    "spanish": false,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1118200,
+    "title": "People Playground",
+    "desc": "Shoot, stab, burn, poison, tear, vaporise, or crush ragdolls in a large open space.",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1118200/header.jpg",
+    "url": "https://store.steampowered.com/app/1118200",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "casual",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "23 JUL 2019",
+    "spanish": false,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1551360,
+    "title": "Forza Horizon 5",
+    "desc": "Explora los coloridos paisajes del mundo abierto de México con una acción de conducción ilimitada y divertida en los mej",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg",
+    "url": "https://store.steampowered.com/app/1551360",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "racing",
+      "fps",
+      "action",
+      "sports"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "8 NOV 2021",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1049590,
+    "title": "Eternal Return",
+    "desc": "Eternal Return is a free-to-play, 2.5D perspective Battle Royale game. Search, Craft, Hunt, and Fight using a variety of",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1049590/header.jpg",
+    "url": "https://store.steampowered.com/app/1049590",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "survival",
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "19 JUL 2023",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 360,
+    "title": "Half-Life Deathmatch: Source",
+    "desc": "Half-Life Deathmatch: Source reinventa el primer juego multijugador ambientado en el universo de Half-Life. Incluye toda",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/360/header.jpg",
+    "url": "https://store.steampowered.com/app/360",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "fps",
+      "action",
+      "horror"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "1 MAY 2006",
+    "spanish": false,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 223710,
+    "title": "Cry of Fear",
+    "desc": "Cry of Fear is a psychological single-player and co-op horror game set in a deserted town filled with horrific creatures",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/223710/header.jpg",
+    "url": "https://store.steampowered.com/app/223710",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "25 ABR 2013",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 513710,
+    "title": "SCUM",
+    "desc": "Adéntrate en SCUM, un juego de supervivencia en un mundo abierto cuya personalización de personaje definirá cómo eres. S",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/513710/header.jpg",
+    "url": "https://store.steampowered.com/app/513710",
+    "min": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "fps",
+      "action",
+      "mmo"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "17 JUN 2025",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 677620,
+    "title": "Splitgate",
+    "desc": "Splitgate es un juego de disparos multijugador gratuito, con temática de ciencia ficción, basado en la creación de porta",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/677620/header.jpg",
+    "url": "https://store.steampowered.com/app/677620",
+    "min": {
+      "cpu": 1,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win81",
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "indie",
+      "action",
+      "fps"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "24 MAY 2019",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1677740,
+    "title": "Stumble Guys",
+    "desc": "¿Listo para el caos? Stumble Guys es un divertido juego party royale multijugador gratuito para 32 jugadores, donde corr",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1677740/header.jpg",
+    "url": "https://store.steampowered.com/app/1677740",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "racing",
+      "indie",
+      "casual",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "7 OCT 2021",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 397900,
+    "title": "Business Tour - Board Game with Online Multiplayer(大富翁)",
+    "desc": "&quot;Business Tour&quot; is a free to play multiplayer tabletop game. Play with up to 3 friends in online mode. Or sing",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/397900/header.jpg",
+    "url": "https://store.steampowered.com/app/397900",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "mmo",
+      "adventure",
+      "indie",
+      "casual"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "27 JUL 2017",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 698780,
+    "title": "Doki Doki Literature Club!",
+    "desc": "The Literature Club is full of cute girls! Will you write the way into their heart? This game is not suitable for childr",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/698780/header.jpg",
+    "url": "https://store.steampowered.com/app/698780",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "casual",
+      "fps"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "6 OCT 2017",
+    "spanish": false,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1604030,
+    "title": "V Rising",
+    "desc": "Despierta siendo un vampiro. Sal en busca de sangre para recuperar tus fuerzas y evade la abrasadora luz solar para sobr",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1604030/header.jpg",
+    "url": "https://store.steampowered.com/app/1604030",
+    "min": {
+      "cpu": 3,
+      "ram": 12,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 5,
+      "ram": 12,
+      "gpu": 3,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "action",
+      "mmo",
+      "survival",
+      "adventure"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "8 MAY 2024",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 534380,
+    "title": "Dying Light 2 Stay Human: Reloaded Edition",
+    "desc": "La humanidad libra una batalla perdida contra el virus. Descubre un mundo abierto posapocalíptico gobernado por hordas d",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/534380/header.jpg",
+    "url": "https://store.steampowered.com/app/534380",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "horror",
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "3 FEB 2022",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 766570,
+    "title": "Russian Fishing 4",
+    "desc": "Russian Fishing 4 is a fishing simulator with RPG elements. There is no story line and the whole process is based on the",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/766570/header.jpg",
+    "url": "https://store.steampowered.com/app/766570",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "casual",
+      "mmo",
+      "sports"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "10 NOV 2021",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 273110,
+    "title": "Counter-Strike Nexon",
+    "desc": "Como una de las franquicias de FPS más influyentes, Counter-Strike es uno de los juegos online más populares hasta la fe",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/273110/header.jpg",
+    "url": "https://store.steampowered.com/app/273110",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "fps",
+      "casual"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "7 OCT 2014",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 868270,
+    "title": "The Cycle: Frontier",
+    "desc": "The Cycle: Frontier es un Extraction Shooter gratuito en primera persona que combina JcJ y JcE regido por el suspense y ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/868270/header.jpg",
+    "url": "https://store.steampowered.com/app/868270",
+    "min": {
+      "cpu": 3,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "mmo",
+      "scifi"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "8 JUN 2022",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 555570,
+    "title": "Infestation: The New Z",
+    "desc": "The New Z es una experiencia multi-modo de juego gratis. Sobrevive con tus amigos en SURVIVAL y encuentra recursos/armas",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/555570/header.jpg",
+    "url": "https://store.steampowered.com/app/555570",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "22 NOV 2016",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 2669320,
+    "title": "EA SPORTS FC™ 25",
+    "desc": "EA SPORTS FC™ 25 te ofrece más formas de ganar por el club. Forma equipo con tus colegas en tus modos favoritos con el n",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/2669320/header.jpg",
+    "url": "https://store.steampowered.com/app/2669320",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 12,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sports"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "26 SEP 2024",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 518790,
+    "title": "theHunter: Call of the Wild™",
+    "desc": "Descubre un atmosférico juego de caza sin parangón en un mundo abierto realista y sobrecogedor que se actualiza a menudo",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/518790/header.jpg",
+    "url": "https://store.steampowered.com/app/518790",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "sports",
+      "adventure",
+      "openworld"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "16 FEB 2017",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 365590,
+    "title": "Tom Clancy’s The Division™",
+    "desc": "Un shooter táctico en tercera persona de mundo abierto ambientado en la ciudad de Nueva York tras una pandemia letal. Fo",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/365590/header.jpg",
+    "url": "https://store.steampowered.com/app/365590",
+    "min": {
+      "cpu": 3,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "survival",
+      "adventure"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "7 MAR 2016",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 346900,
+    "title": "AdVenture Capitalist",
+    "desc": "Welcome, eager young investor, to AdVenture Capitalist! Arguably the world's greatest Capitalism simulator!",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/346900/header.jpg",
+    "url": "https://store.steampowered.com/app/346900",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "casual"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "30 MAR 2015",
+    "spanish": false,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 3240220,
+    "title": "Grand Theft Auto V Enhanced",
+    "desc": "Disfruta de los superventas del entretenimiento Grand Theft Auto V y Grand Theft Auto Online, ahora mejorados para una n",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/3240220/header.jpg",
+    "url": "https://store.steampowered.com/app/3240220",
+    "min": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 5,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "racing",
+      "fps",
+      "action",
+      "adventure"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "4 MAR 2025",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 440900,
+    "title": "Conan Exiles Enhanced",
+    "desc": "Conan Exiles Enhanced es un juego de supervivencia en un mundo abierto ambientado en las tierras de Hiboria, ahora en Un",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/440900/header.jpg",
+    "url": "https://store.steampowered.com/app/440900",
+    "min": {
+      "cpu": 5,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 6,
+      "ram": 16,
+      "gpu": 5,
+      "os": [
+        "win11"
+      ]
+    },
+    "genres": [
+      "action",
+      "mmo",
+      "survival",
+      "adventure"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "8 MAY 2018",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1144200,
+    "title": "Ready or Not",
+    "desc": "Conviértete en un gran comandante de los SWAT y pon orden en una ciudad abrumada por el caos y la corrupción.",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1144200/header.jpg",
+    "url": "https://store.steampowered.com/app/1144200",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "13 DIC 2023",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 113400,
+    "title": "APB Reloaded",
+    "desc": "The world’s first and premier Action MMO Third Person Shooter allows you to choose between two sides of the law. Play as",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/113400/header.jpg",
+    "url": "https://store.steampowered.com/app/113400",
+    "min": {
+      "cpu": 1,
+      "ram": 3,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "mmo",
+      "sandbox"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "6 DIC 2011",
+    "spanish": false,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 380600,
+    "title": "Fishing Planet",
+    "desc": "Fishing Planet® es un simulador de pesca multijugador en línea en primera persona muy realista. Desarrollado por ávidos ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/380600/header.jpg",
+    "url": "https://store.steampowered.com/app/380600",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "mmo",
+      "openworld",
+      "fps",
+      "sports"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "28 AGO 2017",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 285800,
+    "title": "Braveland",
+    "desc": "Braveland es un juego por turnos inspirado por los clásicos del género de la estrategia. Comienzas como el humilde hijo ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/285800/header.jpg",
+    "url": "https://store.steampowered.com/app/285800",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "win10",
+        "win11",
+        "linux",
+        "mac"
+      ]
+    },
+    "genres": [
+      "indie",
+      "casual",
+      "adventure",
+      "rpg"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "17 MAR 2014",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 286690,
+    "title": "Metro 2033 Redux",
+    "desc": "In 2013 the world was devastated by an apocalyptic event, annihilating almost all mankind and turning the Earth's surfac",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/286690/header.jpg",
+    "url": "https://store.steampowered.com/app/286690",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win8"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win7",
+        "win8"
+      ]
+    },
+    "genres": [
+      "horror",
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "27 AGO 2014",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 223750,
+    "title": "DCS World Steam Edition",
+    "desc": "Feel the excitement of flying the Su-25T &quot;Frogfoot&quot; attack jet and the TF-51D &quot;Mustang&quot; in the free-",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/223750/header.jpg",
+    "url": "https://store.steampowered.com/app/223750",
+    "min": {
+      "cpu": 1,
+      "ram": 16,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 32,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "openworld",
+      "fps"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "2 AGO 2013",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 386180,
+    "title": "Crossout",
+    "desc": "Crossout — es el juego de acción MMO postapocalíptico en el que puedes crear un diseño único para un vehículo blindado a",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/386180/header.jpg",
+    "url": "https://store.steampowered.com/app/386180",
+    "min": {
+      "cpu": 3,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "racing",
+      "fps",
+      "action",
+      "mmo"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "26 JUL 2017",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1238840,
+    "title": "Battlefield™ 1",
+    "desc": "Únete a la comunidad de Battlefield y vive la guerra total a través de épicas batallas multijugador por equipos o de las",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1238840/header.jpg",
+    "url": "https://store.steampowered.com/app/1238840",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "mmo",
+      "openworld",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "11 JUN 2020",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 812140,
+    "title": "Assassin's Creed® Odyssey",
+    "desc": "En este juego de acción y aventura, pon rumbo a la antigua Grecia para cambiar su destino. Participa en cruentas batalla",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/812140/header.jpg",
+    "url": "https://store.steampowered.com/app/812140",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "openworld",
+      "rpg",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "5 OCT 2018",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 1721470,
+    "title": "Poppy Playtime",
+    "desc": "You must stay alive in this horror/puzzle adventure. Try to survive the vengeful toys waiting for you in the abandoned t",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1721470/header.jpg",
+    "url": "https://store.steampowered.com/app/1721470",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "12 OCT 2021",
+    "spanish": true,
+    "owners": "5,000,000 .. 10,000,000"
+  },
+  {
+    "id": 960090,
+    "title": "Bloons TD 6",
+    "desc": "El exitoso juego de defensa de torres",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/960090/header.jpg",
+    "url": "https://store.steampowered.com/app/960090",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "survival",
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "17 DIC 2018",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 761890,
+    "title": "Albion Online",
+    "desc": "Albion Online es un juego de fantasía MMORPG sandbox que tiene una economía manejada por los jugadores, un sistema de co",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/761890/header.jpg",
+    "url": "https://store.steampowered.com/app/761890",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 8,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "mmo",
+      "survival",
+      "sandbox",
+      "openworld"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "16 MAY 2018",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 2001120,
+    "title": "Split Fiction",
+    "desc": "Vive momentos alucinantes mientras te adentras en los múltiples mundos de Split Fiction, una aventura cooperativa que va",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/2001120/header.jpg",
+    "url": "https://store.steampowered.com/app/2001120",
+    "min": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 6,
+      "ram": 16,
+      "gpu": 6,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "adventure",
+      "scifi",
+      "fantasy",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "6 MAR 2025",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 508440,
+    "title": "Totally Accurate Battle Simulator",
+    "desc": "Be the leader of wobblers from ancient lands, spooky places, and fantasy worlds. Watch them fight in simulations made wi",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/508440/header.jpg",
+    "url": "https://store.steampowered.com/app/508440",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "indie",
+      "fantasy",
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "1 ABR 2021",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 115300,
+    "title": "Call of Duty®: Modern Warfare® 3 (2011)",
+    "desc": "La saga de acción en primera persona más vendida regresa con una épica secuela del múltiples veces ganador del premio &q",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/115300/header.jpg",
+    "url": "https://store.steampowered.com/app/115300",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "winxp",
+        "winvista",
+        "win7"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "winvista",
+        "win7"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "7 NOV 2011",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 2623190,
+    "title": "The Elder Scrolls IV: Oblivion Remastered",
+    "desc": "Explora Cyrodiil como nunca con unos gráficos impresionantes y una jugabilidad mejorada en The Elder Scrolls IV: Oblivio",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/2623190/header.jpg",
+    "url": "https://store.steampowered.com/app/2623190",
+    "min": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 5,
+      "ram": 32,
+      "gpu": 6,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "openworld",
+      "fps",
+      "rpg",
+      "fantasy"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "22 ABR 2025",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1716740,
+    "title": "Starfield",
+    "desc": "Starfield es el primer universo nuevo en 25 años de Bethesda Game Studios, los galardonados creadores de The Elder Scrol",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1716740/header.jpg",
+    "url": "https://store.steampowered.com/app/1716740",
+    "min": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 5,
+      "ram": 16,
+      "gpu": 6,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "scifi",
+      "fps",
+      "rpg",
+      "openworld"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "5 SEP 2023",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 286160,
+    "title": "Tabletop Simulator",
+    "desc": "Tabletop Simulator is the only simulator where you can let your aggression out by flipping the table! There are no rules",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/286160/header.jpg",
+    "url": "https://store.steampowered.com/app/286160",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "indie",
+      "fps",
+      "casual",
+      "sandbox"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "5 JUN 2015",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 355840,
+    "title": "Survarium",
+    "desc": "Survarium es un FPS en línea post-apocalíptico. Si estás buscando un Shooter donde la habilidad importa, ¡no busques más",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/355840/header.jpg",
+    "url": "https://store.steampowered.com/app/355840",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win81"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "early_access",
+      "fps",
+      "action",
+      "mmo"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "2 ABR 2015",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1366800,
+    "title": "Crosshair X",
+    "desc": "El overlay de mira n°1 para jugadores FPS competitivos. Mejora tu puntería al instante con una retícula personalizada — ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1366800/header.jpg",
+    "url": "https://store.steampowered.com/app/1366800",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "17 AGO 2020",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1260320,
+    "title": "Party Animals",
+    "desc": "!Pelea contra tus amigos como perritos, gatitos y otras criaturas peludas en PARTY ANIMALS! Patea a tus amigos tanto onl",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1260320/header.jpg",
+    "url": "https://store.steampowered.com/app/1260320",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "casual",
+      "action"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "20 SEP 2023",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 212500,
+    "title": "The Lord of the Rings Online™",
+    "desc": "Únete a la comunidad de jugadores más grande del mundo en la galardonada recreación online de la legendaria Tierra Media",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/212500/header.jpg",
+    "url": "https://store.steampowered.com/app/212500",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "winxp"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "winxp",
+        "winvista"
+      ]
+    },
+    "genres": [
+      "action",
+      "mmo",
+      "survival",
+      "adventure"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "6 JUN 2012",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1817070,
+    "title": "Marvel’s Spider-Man Remastered",
+    "desc": "En Marvel’s Spider-Man Remasterizado, la vida de Peter Parker se topa con la de Spider-Man en una historia original repl",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1817070/header.jpg",
+    "url": "https://store.steampowered.com/app/1817070",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "casual",
+      "action",
+      "scifi",
+      "adventure"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "12 AGO 2022",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1506830,
+    "title": "FIFA 22",
+    "desc": "Powered by Football™. EA SPORTS™ FIFA 22 acerca aún más el juego a la realidad gracias a mejoras significativas en la ju",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1506830/header.jpg",
+    "url": "https://store.steampowered.com/app/1506830",
+    "min": {
+      "cpu": 1,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "mmo",
+      "sports"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "1 OCT 2021",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 871720,
+    "title": "Ultimate Custom Night",
+    "desc": "Welcome to the ultimate FNAF mashup, featuring 50 selectable characters and custom difficulties!",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/871720/header.jpg",
+    "url": "https://store.steampowered.com/app/871720",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 2,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "indie",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "27 JUN 2018",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 356190,
+    "title": "Middle-earth™: Shadow of War™",
+    "desc": "Disfruta de un mundo abierto épico, recreado por el galardonado sistema Némesis. Forja un nuevo Anillo de Poder, conquis",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/356190/header.jpg",
+    "url": "https://store.steampowered.com/app/356190",
+    "min": {
+      "cpu": 3,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 12,
+      "gpu": 2,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "action",
+      "adventure",
+      "openworld",
+      "rpg"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "9 OCT 2017",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 552520,
+    "title": "Far Cry® 5",
+    "desc": "Bienvenido a Hope County, Montana, la tierra de los valientes y de la libertad, pero también de la secta apocalíptica co",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/552520/header.jpg",
+    "url": "https://store.steampowered.com/app/552520",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "survival",
+      "adventure"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "26 MAR 2018",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 760160,
+    "title": "Vampire: The Masquerade - Bloodhunt",
+    "desc": "Bloodhunt es un trepidante battle royale gratuito de acción ambientado en una Praga azotada por una despiadada guerra en",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/760160/header.jpg",
+    "url": "https://store.steampowered.com/app/760160",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "27 ABR 2022",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1203620,
+    "title": "Enshrouded",
+    "desc": "Sois Flameborn, la última esperanza de una raza moribunda. Sobrevivid a una niebla corruptora y devolved la belleza a vu",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1203620/header.jpg",
+    "url": "https://store.steampowered.com/app/1203620",
+    "min": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 5,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "early_access",
+      "indie",
+      "action",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "24 ENE 2024",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 601510,
+    "title": "Yu-Gi-Oh! Duel Links",
+    "desc": "¡Enfréntate a duelistas de todo el mundo con Yu-Gi-Oh! Duel Links! Adéntrate en un mundo que atraviesa las dimensiones y",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/601510/header.jpg",
+    "url": "https://store.steampowered.com/app/601510",
+    "min": {
+      "cpu": 1,
+      "ram": 4,
+      "gpu": 1,
+      "os": [
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 2,
+      "os": [
+        "win11"
+      ]
+    },
+    "genres": [
+      "strategy"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "16 NOV 2017",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 236870,
+    "title": "HITMAN™",
+    "desc": "Hay un mundo más allá del nuestro, más allá de las naciones, de la justicia y la ética... Nunca duerme. Es omnipresente.",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/236870/header.jpg",
+    "url": "https://store.steampowered.com/app/236870",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "sandbox",
+      "openworld",
+      "fps",
+      "action"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "11 MAR 2016",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 674940,
+    "title": "Stick Fight: The Game",
+    "desc": "Stick Fight is a physics-based couch/online fighting game where you battle it out as the iconic stick figures from the g",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/674940/header.jpg",
+    "url": "https://store.steampowered.com/app/674940",
+    "min": {
+      "cpu": 1,
+      "ram": 1,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 1,
+      "gpu": 3,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "indie",
+      "casual",
+      "action",
+      "fps"
+    ],
+    "multi": [
+      "solo",
+      "coop",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "28 SEP 2017",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 884660,
+    "title": "CRSED: Cuisine Royale",
+    "desc": "CRSED: Cuisine Royale — es un shooter MMO brutal de último hombre en pie con armamento realistico, letales elementos de ",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/884660/header.jpg",
+    "url": "https://store.steampowered.com/app/884660",
+    "min": {
+      "cpu": 1,
+      "ram": 10,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 10,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "fps",
+      "action",
+      "mmo",
+      "survival"
+    ],
+    "multi": [
+      "solo",
+      "pvp"
+    ],
+    "metacritic": 0,
+    "release": "15 JUN 2018",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 701160,
+    "title": "Kingdom Two Crowns",
+    "desc": "Recoge monedas, construye defensas y recupera tu reino caído. Explora y descubre secretos, desbloquea nuevas tecnologías",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/701160/header.jpg",
+    "url": "https://store.steampowered.com/app/701160",
+    "min": {
+      "cpu": 1,
+      "ram": 2,
+      "gpu": 1,
+      "os": [
+        "win10"
+      ]
+    },
+    "rec": {
+      "cpu": 2,
+      "ram": 4,
+      "gpu": 3,
+      "os": [
+        "win10"
+      ]
+    },
+    "genres": [
+      "indie",
+      "survival",
+      "adventure",
+      "fantasy"
+    ],
+    "multi": [
+      "solo",
+      "coop"
+    ],
+    "metacritic": 0,
+    "release": "11 DIC 2018",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 1832640,
+    "title": "Mirror 2: Project X",
+    "desc": "Enter the parallel worlds enriched by the stories and match-3 games developed using cel-shading techniques powered by Un",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/1832640/header.jpg",
+    "url": "https://store.steampowered.com/app/1832640",
+    "min": {
+      "cpu": 3,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 3,
+      "ram": 16,
+      "gpu": 2,
+      "os": [
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "early_access",
+      "indie",
+      "fps",
+      "adventure"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "20 ENE 2022",
+    "spanish": false,
+    "owners": "2,000,000 .. 5,000,000"
+  },
+  {
+    "id": 208650,
+    "title": "Batman™: Arkham Knight",
+    "desc": "Batman™: Arkham Knight es la épica conclusión de la galardonada trilogía de Arkham, creada por Rocksteady Studios. El tí",
+    "thumb": "https://cdn.akamai.steamstatic.com/steam/apps/208650/header.jpg",
+    "url": "https://store.steampowered.com/app/208650",
+    "min": {
+      "cpu": 3,
+      "ram": 6,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win8.1",
+        "win10",
+        "win11"
+      ]
+    },
+    "rec": {
+      "cpu": 4,
+      "ram": 8,
+      "gpu": 1,
+      "os": [
+        "win7",
+        "win8.1",
+        "win10",
+        "win11"
+      ]
+    },
+    "genres": [
+      "horror",
+      "action",
+      "adventure",
+      "openworld"
+    ],
+    "multi": [
+      "solo"
+    ],
+    "metacritic": 0,
+    "release": "23 JUN 2015",
+    "spanish": true,
+    "owners": "2,000,000 .. 5,000,000"
   }
 ]
