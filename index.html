@@ -655,15 +655,37 @@
   let GAMES = [];
 
   async function cargarJuegos() {
+    // Intenta games.json primero (base de datos completa)
+    // Si falla, usa progreso.json como fallback automático
+    let cargado = false;
+
     try {
       const res = await fetch('games.json');
-      GAMES = await res.json();
-    } catch (err) {
+      if (res.ok) {
+        const data = await res.json();
+        GAMES = Array.isArray(data) ? data : Object.values(data.juegos || data);
+        cargado = true;
+      }
+    } catch (_) {}
+
+    if (!cargado) {
+      try {
+        const res = await fetch('progreso.json');
+        if (res.ok) {
+          const data = await res.json();
+          // progreso.json tiene estructura { juegos: { id: {...} } }
+          GAMES = Object.values(data.juegos || data);
+          cargado = true;
+        }
+      } catch (_) {}
+    }
+
+    if (!cargado) {
       $('results').innerHTML = `
         <div class="empty">
           <span class="icon">⚠️</span>
-          No se pudo cargar games.json.<br>
-          Comprueba que el archivo está en la misma carpeta que index.html.
+          No se pudo cargar games.json ni progreso.json.<br>
+          Comprueba que alguno de los dos archivos está en la misma carpeta que index.html.
         </div>`;
     }
   }
