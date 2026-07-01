@@ -214,7 +214,11 @@
       font-weight: 600;
       color: #fff;
       margin-bottom: 0.2rem;
+      text-decoration: none;
+      display: block;
+      transition: color 0.15s;
     }
+    .game-title:hover { color: var(--accent-hover); }
     .game-desc {
       font-size: 0.82rem;
       color: var(--text-muted);
@@ -256,10 +260,6 @@
     }
     .empty .icon { font-size: 2.5rem; display: block; margin-bottom: 0.75rem; }
 
-    /* ── Contador de visitas ── */
-    .header-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-    .visit-counter { font-size: 14px; color: #888; text-align: right; white-space: nowrap; font-weight: 500; }
-
     /* ── Icono SVG inline ── */
     .ico {
       width: 14px;
@@ -271,6 +271,86 @@
       stroke-linejoin: round;
       flex-shrink: 0;
     }
+
+    /* ── Botón de ayuda (?) ── */
+    .help-btn {
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      border: 1px solid rgba(124,106,245,0.4);
+      background: var(--accent-dim);
+      color: var(--accent-hover);
+      font-size: 0.72rem;
+      font-weight: 700;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      margin-left: auto;
+      padding: 0;
+      font-family: var(--font);
+      transition: background 0.15s, transform 0.1s;
+    }
+    .help-btn:hover {
+      background: var(--accent);
+      color: #fff;
+      transform: scale(1.08);
+    }
+
+    /* ── Modal de ayuda ── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      z-index: 100;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-box {
+      background: var(--surface);
+      border: 1px solid var(--border-hover);
+      border-radius: var(--radius-lg);
+      max-width: 480px;
+      width: 100%;
+      max-height: 80vh;
+      overflow-y: auto;
+      padding: 1.5rem;
+    }
+    .modal-box h3 {
+      font-size: 1.1rem;
+      color: #fff;
+      margin-bottom: 0.75rem;
+    }
+    .modal-box p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+    .modal-box code {
+      background: var(--surface2);
+      padding: 1px 6px;
+      border-radius: 5px;
+      color: var(--accent-hover);
+      font-size: 0.85rem;
+    }
+    .modal-box .modal-close {
+      margin-top: 0.5rem;
+      width: 100%;
+      padding: 0.6rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    .modal-box .modal-close:hover { border-color: var(--border-hover); }
   </style>
 </head>
 <body>
@@ -278,13 +358,8 @@
 <div class="container">
 
   <header>
-    <div class="header-row">
-      <div>
-        <h1>¿Puede mi PC <span>correrlo</span>?</h1>
-        <p>Encuentra juegos compatibles con tu hardware en segundos</p>
-      </div>
-      <div id="visit-counter" class="visit-counter"></div>
-    </div>
+    <h1>¿Puede mi PC <span>correrlo</span>?</h1>
+    <p>Encuentra juegos compatibles con tu hardware en segundos</p>
   </header>
 
   <!-- ── Prefabricados ── -->
@@ -311,13 +386,43 @@
         <label>
           <svg class="ico" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg>
           Procesador
+          <button type="button" class="help-btn" onclick="abrirAyuda()" aria-label="¿Cómo saber qué hardware tengo?">?</button>
         </label>
         <select id="cpu" onchange="syncSelects()">
           <option value="">Cualquier CPU</option>
-          <option value="1">Intel Core i3 / AMD Ryzen 3 (gama básica)</option>
-          <option value="2">Intel Core i5 / AMD Ryzen 5 (gama media)</option>
-          <option value="3">Intel Core i7 / AMD Ryzen 7 (gama alta)</option>
-          <option value="4">Intel Core i9 / AMD Ryzen 9 (gama alta+)</option>
+          <optgroup label="Intel Core i3">
+            <option value="intel-i3-1">i3 (1ª a 9ª gen)</option>
+            <option value="intel-i3-2">i3 (10ª gen o superior)</option>
+          </optgroup>
+          <optgroup label="Intel Core i5">
+            <option value="intel-i5-1">i5 (1ª a 9ª gen)</option>
+            <option value="intel-i5-2">i5 (10ª a 12ª gen)</option>
+            <option value="intel-i5-3">i5 (13ª gen o superior)</option>
+          </optgroup>
+          <optgroup label="Intel Core i7">
+            <option value="intel-i7-1">i7 (1ª a 9ª gen)</option>
+            <option value="intel-i7-2">i7 (10ª a 12ª gen)</option>
+            <option value="intel-i7-3">i7 (13ª gen o superior)</option>
+          </optgroup>
+          <optgroup label="Intel Core i9">
+            <option value="intel-i9-1">i9 (9ª a 11ª gen)</option>
+            <option value="intel-i9-2">i9 (12ª gen o superior)</option>
+          </optgroup>
+          <optgroup label="AMD Ryzen 3">
+            <option value="amd-r3-1">Ryzen 3 (cualquier serie)</option>
+          </optgroup>
+          <optgroup label="AMD Ryzen 5">
+            <option value="amd-r5-1">Ryzen 5 (serie 1000-3000)</option>
+            <option value="amd-r5-2">Ryzen 5 (serie 5000 o superior)</option>
+          </optgroup>
+          <optgroup label="AMD Ryzen 7">
+            <option value="amd-r7-1">Ryzen 7 (serie 1000-3000)</option>
+            <option value="amd-r7-2">Ryzen 7 (serie 5000 o superior)</option>
+          </optgroup>
+          <optgroup label="AMD Ryzen 9">
+            <option value="amd-r9-1">Ryzen 9 (serie 3000-5000)</option>
+            <option value="amd-r9-2">Ryzen 9 (serie 7000 o superior)</option>
+          </optgroup>
         </select>
       </div>
       <div class="field">
@@ -343,10 +448,44 @@
         </label>
         <select id="gpu" onchange="syncSelects()">
           <option value="">Cualquier GPU</option>
-          <option value="1">NVIDIA GTX 1650 / AMD RX 6600 (gama básica)</option>
-          <option value="2">NVIDIA RTX 3060 / AMD RX 6700 XT (gama media)</option>
-          <option value="3">NVIDIA RTX 4070 / AMD RX 7800 XT (gama alta)</option>
-          <option value="4">NVIDIA RTX 4090 / AMD RX 7900 XTX (gama alta+)</option>
+          <optgroup label="NVIDIA GTX">
+            <option value="gtx-1050">GTX 1050 / 1050 Ti</option>
+            <option value="gtx-1060">GTX 1060</option>
+            <option value="gtx-1070">GTX 1070 / 1070 Ti</option>
+            <option value="gtx-1080">GTX 1080 / 1080 Ti</option>
+            <option value="gtx-1650">GTX 1650</option>
+            <option value="gtx-1660">GTX 1660 / 1660 Super / Ti</option>
+          </optgroup>
+          <optgroup label="NVIDIA RTX 20/30">
+            <option value="rtx-2060">RTX 2060</option>
+            <option value="rtx-2070">RTX 2070 / 2080</option>
+            <option value="rtx-3060">RTX 3060 / 3060 Ti</option>
+            <option value="rtx-3070">RTX 3070 / 3070 Ti</option>
+            <option value="rtx-3080">RTX 3080 / 3080 Ti / 3090</option>
+          </optgroup>
+          <optgroup label="NVIDIA RTX 40/50">
+            <option value="rtx-4060">RTX 4060 / 4060 Ti</option>
+            <option value="rtx-4070">RTX 4070 / 4070 Ti / Super</option>
+            <option value="rtx-4080">RTX 4080 / Super</option>
+            <option value="rtx-4090">RTX 4090</option>
+            <option value="rtx-5070">RTX 5060 / 5070 / Ti</option>
+            <option value="rtx-5080">RTX 5080 / 5090</option>
+          </optgroup>
+          <optgroup label="AMD Radeon RX">
+            <option value="rx-580">RX 480 / 580 / 590</option>
+            <option value="rx-5700">RX 5600 / 5700 (XT)</option>
+            <option value="rx-6600">RX 6600 / 6650 XT</option>
+            <option value="rx-6700">RX 6700 / 6700 XT / 6750 XT</option>
+            <option value="rx-6800">RX 6800 / 6800 XT</option>
+            <option value="rx-6900">RX 6900 XT / 6950 XT</option>
+            <option value="rx-7700">RX 7600 / 7700 XT</option>
+            <option value="rx-7800">RX 7800 XT / 7900 GRE</option>
+            <option value="rx-7900">RX 7900 XT / XTX</option>
+            <option value="rx-9070">RX 9060 XT / 9070 (XT)</option>
+          </optgroup>
+          <optgroup label="Integrada / portátil">
+            <option value="integrada">Gráfica integrada (RDNA2/3, Iris Xe...)</option>
+          </optgroup>
         </select>
       </div>
       <div class="field">
@@ -354,7 +493,7 @@
           <svg class="ico" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
           Sistema operativo
         </label>
-        <select id="os" onchange="syncSelects()" disabled>
+        <select id="os" onchange="syncSelects()">
           <option value="">Cualquier OS</option>
           <option value="win10">Windows 10</option>
           <option value="win11">Windows 11</option>
@@ -434,10 +573,20 @@
 
 </div>
 
+<!-- ── Modal de ayuda ── -->
+<div class="modal-overlay" id="modalAyuda" onclick="if(event.target===this) cerrarAyuda()">
+  <div class="modal-box">
+    <h3 id="modalTitulo">Ayuda</h3>
+    <div id="modalContenido"></div>
+    <button class="modal-close" onclick="cerrarAyuda()">Cerrar</button>
+  </div>
+</div>
+
+
 <script>
   /* ── Base de datos de juegos ──────────────────────────────────────────
      Se carga desde games.json (datos reales, generados por generar_games.py).
-     Cada juego tiene min/rec con niveles cpu(1-4) / ram(GB) / gpu(1-4) / os[]
+     Cada juego tiene min/rec con niveles cpu(1-10) / ram(GB) / gpu(1-10) / os[]
   ──────────────────────────────────────────────────────────────────── */
   let GAMES = [];
 
@@ -455,16 +604,64 @@
     }
   }
   cargarJuegos();
-  $('os').value = '';
-  $('os').disabled = true;
 
-  /* ── Specs de dispositivos prefabricados ── */
-  const PREFABS = {
-    steamdeck: { cpu:"2", ram:"16", gpu:"2", os:"linux" },
-    rogally:   { cpu:"3", ram:"16", gpu:"3", os:"win11" },
-    legionGo:  { cpu:"3", ram:"16", gpu:"3", os:"win11" },
-    gpd:       { cpu:"3", ram:"16", gpu:"3", os:"win11" },
+  /* ── Tabla de equivalencia: traduce la opción elegida en el desplegable
+     a un nivel de potencia 1-10, EXACTAMENTE con los mismos rangos que
+     se le indican a la IA en generar_games.py. Si cambias una tabla,
+     cambia también la otra para que sigan dando resultados coherentes. ── */
+  const CPU_TIERS = {
+    'intel-i3-1': 1, 'intel-i3-2': 2,
+    'intel-i5-1': 3, 'intel-i5-2': 5, 'intel-i5-3': 6,
+    'intel-i7-1': 4, 'intel-i7-2': 6, 'intel-i7-3': 7,
+    'intel-i9-1': 8, 'intel-i9-2': 9,
+    'amd-r3-1': 1,
+    'amd-r5-1': 3, 'amd-r5-2': 5,
+    'amd-r7-1': 4, 'amd-r7-2': 6,
+    'amd-r9-1': 7, 'amd-r9-2': 9,
   };
+
+  const GPU_TIERS = {
+    'gtx-1050': 1, 'gtx-1060': 2, 'gtx-1070': 3, 'gtx-1080': 4,
+    'gtx-1650': 2, 'gtx-1660': 3,
+    'rtx-2060': 3, 'rtx-2070': 4,
+    'rtx-3060': 5, 'rtx-3070': 6, 'rtx-3080': 7,
+    'rtx-4060': 5, 'rtx-4070': 6, 'rtx-4080': 8, 'rtx-4090': 9,
+    'rtx-5070': 6, 'rtx-5080': 9,
+    'rx-580': 1,
+    'rx-5700': 3,
+    'rx-6600': 4, 'rx-6700': 5, 'rx-6800': 7, 'rx-6900': 7,
+    'rx-7700': 4, 'rx-7800': 6, 'rx-7900': 8,
+    'rx-9070': 6,
+    'integrada': 1,
+  };
+
+  /* ── Specs de dispositivos prefabricados (usando las claves del desplegable) ── */
+  const PREFABS = {
+    steamdeck: { cpu:'amd-r5-1',  ram:'16', gpu:'integrada', os:'linux' },
+    rogally:   { cpu:'amd-r7-2',  ram:'16', gpu:'rx-6700',   os:'win11' },
+    legionGo:  { cpu:'amd-r7-2',  ram:'16', gpu:'rx-6700',   os:'win11' },
+    gpd:       { cpu:'amd-r7-2',  ram:'16', gpu:'rx-6700',   os:'win11' },
+  };
+
+  /* ── Texto del modal de ayuda (único, cubre CPU + GPU + RAM) ── */
+  const AYUDA_TITULO = '¿Cómo sé qué hardware tiene mi PC?';
+  const AYUDA_HTML = `
+    <p><strong>La forma más completa:</strong> haz clic derecho en "Este equipo" (o "Mi PC", en el Escritorio o en el Explorador de archivos) y pulsa <code>Propiedades</code>. Ahí verás de un vistazo el procesador y la cantidad de RAM instalada.</p>
+    <p><strong>Procesador (CPU):</strong> aparecerá algo como <code>Intel Core i5-12400</code> o <code>AMD Ryzen 5 5600X</code>.</p>
+    <p style="margin-left: 0.75rem;">— Intel: el número justo después del guion es la generación. En <code>i5-12400</code> es la 12ª. Si tiene 5 cifras (ej. <code>i7-10700</code>), solo cuentan las 2 primeras: 10ª gen.</p>
+    <p style="margin-left: 0.75rem;">— AMD Ryzen: el primer dígito del modelo es la serie. En <code>Ryzen 5 5600X</code>, el <code>5</code> de "5600X" indica la serie 5000.</p>
+    <p><strong>Memoria RAM:</strong> en esa misma ventana de Propiedades aparece como "RAM instalada", por ejemplo <code>16,0 GB</code>.</p>
+    <p><strong>Tarjeta gráfica (GPU):</strong> en algunos equipos también aparece en esa misma ventana de Propiedades. Si no es tu caso, haz clic derecho en la barra de tareas → <code>Administrador de tareas</code> → pestaña "Rendimiento" → ahí verás "GPU" con el modelo exacto.</p>
+    <p>Si tu modelo exacto no aparece en los desplegables de esta web, elige el más parecido de la lista.</p>`;
+
+  function abrirAyuda() {
+    $('modalTitulo').textContent = AYUDA_TITULO;
+    $('modalContenido').innerHTML = AYUDA_HTML;
+    $('modalAyuda').classList.add('open');
+  }
+  function cerrarAyuda() {
+    $('modalAyuda').classList.remove('open');
+  }
 
   /* ── Helpers ── */
   function $(id) { return document.getElementById(id); }
@@ -472,22 +669,19 @@
   function onPrefab() {
     const val = $('prefab').value;
     const locked = !!val;
-    ['cpu','ram','gpu'].forEach(id => { $(id).disabled = locked; });
-    $('os').value = '';
-    $('os').disabled = true;
+    ['cpu','ram','gpu','os'].forEach(id => { $(id).disabled = locked; });
     if (val && PREFABS[val]) {
       const p = PREFABS[val];
       $('cpu').value = p.cpu;
       $('ram').value = p.ram;
       $('gpu').value = p.gpu;
+      $('os').value  = p.os;
     }
   }
 
   function syncSelects() {
     $('prefab').value = '';
-    ['cpu','ram','gpu'].forEach(id => { $(id).disabled = false; });
-    $('os').value = '';
-    $('os').disabled = true;
+    ['cpu','ram','gpu','os'].forEach(id => { $(id).disabled = false; });
   }
 
   /* Windows 11 corre software listado solo para Windows 10 */
@@ -499,15 +693,17 @@
 
   /* ── Lógica de búsqueda ── */
   function buscar() {
-    const cpu   = parseInt($('cpu').value)  || 0;
-    const ram   = parseInt($('ram').value)  || 0;
-    const gpu   = parseInt($('gpu').value)  || 0;
-    const os    = $('os').value;
-    const g1    = $('genre1').value;
-    const g2    = $('genre2').value;
+    const cpuKey = $('cpu').value;
+    const gpuKey = $('gpu').value;
+    const cpu  = CPU_TIERS[cpuKey] || 0;
+    const gpu  = GPU_TIERS[gpuKey] || 0;
+    const ram  = parseInt($('ram').value) || 0;
+    const os   = $('os').value;
+    const g1   = $('genre1').value;
+    const g2   = $('genre2').value;
     const multi = $('multi').value;
 
-    const nada  = !cpu && !ram && !gpu && !os && !g1 && !g2 && !multi;
+    const nada = !cpuKey && !ram && !gpuKey && !os && !g1 && !g2 && !multi;
 
     const found = GAMES.filter(g => {
       if (cpu   && g.min.cpu > cpu)            return false;
@@ -567,7 +763,7 @@
         <div class="game-card">
           <div class="game-thumb"><img src="${g.thumb}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:10px;" onerror="this.style.display='none'"></div>
           <div class="game-body">
-            <p class="game-title">${g.title}</p>
+            <a class="game-title" href="${g.url}" target="_blank" rel="noopener noreferrer">${g.title} <svg style="width:11px;height:11px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;opacity:0.6;vertical-align:middle" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
             <p class="game-desc">${g.desc}</p>
             <div class="tags">
               ${genres}${multis}
@@ -578,22 +774,6 @@
     }).join('');
     el.innerHTML = header + cards;
   }
-
-  // =============================================
-  // CONTADOR DE VISITAS GLOBAL
-  // Usa counterapi.dev, servicio gratuito sucesor de countapi.xyz
-  // =============================================
-  fetch('https://api.counterapi.dev/v1/ofertasspeedrun/hardware/up')
-    .then(res => res.json())
-    .then(data => {
-      const val = data.count ?? data.value ?? null;
-      if (val !== null) {
-        $('visit-counter').textContent = '👀 ' + Number(val).toLocaleString('es-ES') + ' visitas';
-      }
-    })
-    .catch(() => {
-      $('visit-counter').textContent = '';
-    });
 </script>
 </body>
 </html>
